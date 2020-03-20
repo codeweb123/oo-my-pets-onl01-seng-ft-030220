@@ -30,8 +30,7 @@ class Owner
   end
 
   def dogs
-    Dog.all.find_all do |dog_instance|
-      dog_instance.owner == self
+    Dog.all.select|dog_instance| dog_instance.owner == self}
     end
   end
 
