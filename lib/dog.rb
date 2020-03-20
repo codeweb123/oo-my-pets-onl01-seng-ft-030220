@@ -13,4 +13,4 @@ class Dog
   def self.all
     @@all_dogs
   end
-end 
+end
